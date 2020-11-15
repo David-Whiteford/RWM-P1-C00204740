@@ -55,6 +55,14 @@ public class PlatformController : MonoBehaviour
         {
             pointInPath.MoveNext();
         }
+        if(playerOnPlat == true)
+        {
+
+        }
+        else
+        {
+
+        }
       
     }
     void OnTriggerEnter(Collider other)
